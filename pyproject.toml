@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "discord-eu4-bot"
+version = "0.1.0"
+description = ""
+authors = ["Lampower <123113309+Lampower@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include="app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.4.0"
+
+[tool.poetry.scripts]
+start = "app.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
