@@ -26,8 +26,8 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
-@client.command
 async def command_name(message: Message):
+    
     return
 
 app = client.run(token)
