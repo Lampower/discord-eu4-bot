@@ -2,6 +2,7 @@
 
 <div style = "">
 To start:
+
 <div style = "padding: 5px; margin: 10px">
 <div>
 if not installed poetry on system
@@ -10,6 +11,7 @@ if not installed poetry on system
 > pip install poetry
 </div>
 </div>
+
 <div style = "padding: 5px; margin: 10px">
 <div>
 to install dependencies
@@ -18,14 +20,25 @@ to install dependencies
 > poetry install 
 </div>
 </div>
+
 <div style = "padding: 5px; margin: 10px">
 <div>
 to run script eg: poetry run example.main:func where example is directory to file main with function func as an entrypoint
 </div>
 <div>
- > poetry run "script_name"
+ > poetry run start
 </div>
 </div>
+
+<div style = "padding: 5px; margin: 10px">
+<div>
+to activate venv
+</div>
+<div>
+> .\bot_env\Scripts\activate
+</div>
+</div>
+
 </div>
 
 
