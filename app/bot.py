@@ -7,17 +7,10 @@ import random
 class EU4Bot(commands.Bot):
 
     async def on_ready(self):
+        # self.add_command(self.create_eu4_league)
         print(f'Logged as {self.user}')
-    
-    async def on_message(self, message: Message):
-        if (message.author == self.user):
-            return
         
-        if (message.content.lower().startswith("hello")):
-            emoji = self.emojis[random.randint(0, len(self.emojis)-1)]
-            await message.add_reaction(emoji)
-            await message.channel.send(f"Hi {message.author}")
-        
-
-    async def create_eu4_league(self, interaction: discord.Interaction):
-        return
+    # @commands.command("create")
+    # async def create_eu4_league(self, interaction: discord.Interaction):
+    #     await interaction.message.channel.send("you have created category")
+    #     return

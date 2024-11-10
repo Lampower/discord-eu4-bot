@@ -1,8 +1,7 @@
 import os
 import discord
-import discord.types
 from discord.message import Message
-from app.bot import EU4Bot
+from app.bot_commands import EU4BotCommands
 
 # -----------------------IMPORTS ABOVE-----------------------------------------
 
@@ -12,7 +11,7 @@ prefix = os.getenv("PREFIX")
 intents = discord.Intents.default()
 intents.message_content = True
 
-client = EU4Bot(intents=intents, command_prefix=prefix)
+client = EU4BotCommands(intents=intents, prefix=prefix, token=token)
 
 
-app = client.run(token)
+app = client.run()
