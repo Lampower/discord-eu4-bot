@@ -1,4 +1,3 @@
-from .bot import EU4Bot
 from discord import *
 from discord.ext import commands
 from discord.ext.commands import Context, has_permissions
@@ -18,9 +17,8 @@ class EU4ChatCommands(commands.Cog):
 
     @commands.command(name="create")
     async def create_league(ctx: Context):
-        await self.send_message(ctx, t.CREATE_LEAGUE)
-        return 
-
+        raise NotImplementedError()
+    
     async def send_message(self, ctx: Context, msg: str):
         await ctx.channel.send(msg)
 

@@ -163,3 +163,5 @@ cython_debug/
 
 # best file ever
 идея.txt
+
+*.drawio
