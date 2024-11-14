@@ -1,0 +1,399 @@
+[
+    {
+        "label": "contextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "isExtraImport": true,
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "discord",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "discord",
+        "description": "discord",
+        "detail": "discord",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "discord",
+        "description": "discord",
+        "isExtraImport": true,
+        "detail": "discord",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "discord",
+        "description": "discord",
+        "isExtraImport": true,
+        "detail": "discord",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "discord",
+        "description": "discord",
+        "isExtraImport": true,
+        "detail": "discord",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "discord.ext.commands",
+        "description": "discord.ext.commands",
+        "isExtraImport": true,
+        "detail": "discord.ext.commands",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "discord.ext.commands",
+        "description": "discord.ext.commands",
+        "isExtraImport": true,
+        "detail": "discord.ext.commands",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "importPath": "discord.ext.commands",
+        "description": "discord.ext.commands",
+        "isExtraImport": true,
+        "detail": "discord.ext.commands",
+        "documentation": {}
+    },
+    {
+        "label": "has_permissions",
+        "importPath": "discord.ext.commands",
+        "description": "discord.ext.commands",
+        "isExtraImport": true,
+        "detail": "discord.ext.commands",
+        "documentation": {}
+    },
+    {
+        "label": "session_scope",
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "isExtraImport": true,
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "discord.ext",
+        "description": "discord.ext",
+        "isExtraImport": true,
+        "detail": "discord.ext",
+        "documentation": {}
+    },
+    {
+        "label": "app.configs.en_conf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "discord.message",
+        "description": "discord.message",
+        "isExtraImport": true,
+        "detail": "discord.message",
+        "documentation": {}
+    },
+    {
+        "label": "EU4ChatCommands",
+        "importPath": "app.bot_commands",
+        "description": "app.bot_commands",
+        "isExtraImport": true,
+        "detail": "app.bot_commands",
+        "documentation": {}
+    },
+    {
+        "label": "CREATE_LEAGUE",
+        "kind": 5,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "peekOfCode": "CREATE_LEAGUE = \"You are creating league\"\nNAME_OF_LEAGUE_QUESTION = \"What is the name of your league?\"\nWHO_IS_ORGANISING_LEAGUE_QUESTION = \"Who is orginising league?\"\nWHO_IS_MEMBER_OF_LEAGUE_QUESTION = \"Who is member of league?\"\n# SETTINGS\nSETTINGS_CHOSEN = \"Choose what do you want to change\"",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "NAME_OF_LEAGUE_QUESTION",
+        "kind": 5,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "peekOfCode": "NAME_OF_LEAGUE_QUESTION = \"What is the name of your league?\"\nWHO_IS_ORGANISING_LEAGUE_QUESTION = \"Who is orginising league?\"\nWHO_IS_MEMBER_OF_LEAGUE_QUESTION = \"Who is member of league?\"\n# SETTINGS\nSETTINGS_CHOSEN = \"Choose what do you want to change\"",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "WHO_IS_ORGANISING_LEAGUE_QUESTION",
+        "kind": 5,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "peekOfCode": "WHO_IS_ORGANISING_LEAGUE_QUESTION = \"Who is orginising league?\"\nWHO_IS_MEMBER_OF_LEAGUE_QUESTION = \"Who is member of league?\"\n# SETTINGS\nSETTINGS_CHOSEN = \"Choose what do you want to change\"",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "WHO_IS_MEMBER_OF_LEAGUE_QUESTION",
+        "kind": 5,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "peekOfCode": "WHO_IS_MEMBER_OF_LEAGUE_QUESTION = \"Who is member of league?\"\n# SETTINGS\nSETTINGS_CHOSEN = \"Choose what do you want to change\"",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "SETTINGS_CHOSEN",
+        "kind": 5,
+        "importPath": "app.configs.en_conf",
+        "description": "app.configs.en_conf",
+        "peekOfCode": "SETTINGS_CHOSEN = \"Choose what do you want to change\"",
+        "detail": "app.configs.en_conf",
+        "documentation": {}
+    },
+    {
+        "label": "session_scope",
+        "kind": 2,
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "peekOfCode": "def session_scope():\n    \"\"\"Provides a transactional scope around a series of operations.\"\"\"\n    session = DBSession()\n    try:\n        yield session\n        session.commit()\n    except Exception as e:\n        session.rollback()\n        raise e\n    finally:",
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "create_db",
+        "kind": 2,
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "peekOfCode": "def create_db():\n    Base.metadata.create_all(main_engine)    \ndef delete_db():\n    Base.metadata.drop_all(main_engine)\n# Tests\nif __name__ == '__main__':\n    delete_db()\n    create_db()    \n#     with session_scope() as s:\n#         <actual_code>",
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "delete_db",
+        "kind": 2,
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "peekOfCode": "def delete_db():\n    Base.metadata.drop_all(main_engine)\n# Tests\nif __name__ == '__main__':\n    delete_db()\n    create_db()    \n#     with session_scope() as s:\n#         <actual_code>",
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "main_engine",
+        "kind": 5,
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "peekOfCode": "main_engine = sa.create_engine(\n    'sqlite:///database.db',\n    echo=True,\n)\nDBSession = sessionmaker(\n    bind=main_engine,\n    expire_on_commit=False,\n)\n@contextmanager\ndef session_scope():",
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "DBSession",
+        "kind": 5,
+        "importPath": "app.db.db_context",
+        "description": "app.db.db_context",
+        "peekOfCode": "DBSession = sessionmaker(\n    bind=main_engine,\n    expire_on_commit=False,\n)\n@contextmanager\ndef session_scope():\n    \"\"\"Provides a transactional scope around a series of operations.\"\"\"\n    session = DBSession()\n    try:\n        yield session",
+        "detail": "app.db.db_context",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    id = Column(Integer, primary_key=True)\n    pass\nclass LeagueModel(Base):\n    __tablename__ = \"guilds\"\n    guild_id = Column(Integer)\n    league_name = Column(String)\nclass CategoryModel(Base):\n    __tablename__ = \"categories\"\n    league_id = Column(Integer, ForeignKey('guilds.id'))",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "LeagueModel",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class LeagueModel(Base):\n    __tablename__ = \"guilds\"\n    guild_id = Column(Integer)\n    league_name = Column(String)\nclass CategoryModel(Base):\n    __tablename__ = \"categories\"\n    league_id = Column(Integer, ForeignKey('guilds.id'))\nclass ChanneModel(Base):\n    __tablename__ = \"channels\"\n    category_id = Column(Integer, ForeignKey(\"channels.id\"))",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class CategoryModel(Base):\n    __tablename__ = \"categories\"\n    league_id = Column(Integer, ForeignKey('guilds.id'))\nclass ChanneModel(Base):\n    __tablename__ = \"channels\"\n    category_id = Column(Integer, ForeignKey(\"channels.id\"))\nclass RoleModel(Base):\n    __tablename__ = \"roles\"",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChanneModel",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class ChanneModel(Base):\n    __tablename__ = \"channels\"\n    category_id = Column(Integer, ForeignKey(\"channels.id\"))\nclass RoleModel(Base):\n    __tablename__ = \"roles\"",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "RoleModel",
+        "kind": 6,
+        "importPath": "app.db.db_models",
+        "description": "app.db.db_models",
+        "peekOfCode": "class RoleModel(Base):\n    __tablename__ = \"roles\"",
+        "detail": "app.db.db_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatManageCommands",
+        "kind": 6,
+        "importPath": "app.services.chat_manage_service",
+        "description": "app.services.chat_manage_service",
+        "peekOfCode": "class ChatManageCommands():\n    def __init__(self):\n        pass\n    async def create_role(self, ctx: Context, name: str, color = None) -> Role:\n        return await ctx.guild.create_role(name=name, color=color)\n    async def create_category(self, guild: Guild, name: str = \"default category name\", roles: list[Role] = None) -> CategoryChannel:\n        last_pos = len(guild.categories)\n        return await guild.create_category(name=name, position=last_pos, overwrites=roles)\n    async def create_channel_in_category(self, name: str, category: CategoryChannel) -> TextChannel:\n        return await category.create_text_channel(name=name)",
+        "detail": "app.services.chat_manage_service",
+        "documentation": {}
+    },
+    {
+        "label": "DbManageCommands",
+        "kind": 6,
+        "importPath": "app.services.db_commands",
+        "description": "app.services.db_commands",
+        "peekOfCode": "class DbManageCommands():\n    def __init__(self):\n        pass\n    def create_role(self, role_id: int) -> None:\n        with session_scope() as s:\n            entity = RoleModel()\n            q = s.query(RoleModel).add_entity(entity).one()\n            return entity.id\n    async def create_category(self, guild: Guild, name: str = \"default category name\", roles: list[Role] = None) -> CategoryChannel:\n        last_pos = len(guild.categories)",
+        "detail": "app.services.db_commands",
+        "documentation": {}
+    },
+    {
+        "label": "GameDataService",
+        "kind": 6,
+        "importPath": "app.services.game_data_service",
+        "description": "app.services.game_data_service",
+        "peekOfCode": "class GameDataService():\n    def __init__(self):\n        pass",
+        "detail": "app.services.game_data_service",
+        "documentation": {}
+    },
+    {
+        "label": "EU4ChatCommands",
+        "kind": 6,
+        "importPath": "app.bot_commands",
+        "description": "app.bot_commands",
+        "peekOfCode": "class EU4ChatCommands(commands.Cog):\n    def __init__(self, bot: commands.Bot):\n        self.bot = bot\n        self.add_commands()\n    @commands.command(name=\"setting\")\n    @has_permissions(administrator=True)\n    async def settings(ctx: Context):\n        raise NotImplementedError()\n    @commands.command(name=\"create\")\n    async def create_league(ctx: Context):",
+        "detail": "app.bot_commands",
+        "documentation": {}
+    },
+    {
+        "label": "token",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "token = os.getenv(\"TOKEN\")\nprefix = os.getenv(\"PREFIX\")\nintents = discord.Intents.default()\nintents.message_content = True\nclient = EU4ChatCommands(intents=intents, prefix=prefix, token=token)\napp = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "prefix",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "prefix = os.getenv(\"PREFIX\")\nintents = discord.Intents.default()\nintents.message_content = True\nclient = EU4ChatCommands(intents=intents, prefix=prefix, token=token)\napp = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "intents",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "intents = discord.Intents.default()\nintents.message_content = True\nclient = EU4ChatCommands(intents=intents, prefix=prefix, token=token)\napp = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "intents.message_content",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "intents.message_content = True\nclient = EU4ChatCommands(intents=intents, prefix=prefix, token=token)\napp = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "client = EU4ChatCommands(intents=intents, prefix=prefix, token=token)\napp = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = client.run()",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]

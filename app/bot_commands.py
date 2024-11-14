@@ -1,28 +1,25 @@
 from .bot import EU4Bot
-from discord import Intents
 from discord import *
+from discord.ext import commands
 from discord.ext.commands import Context, has_permissions
 
 import app.configs.en_conf as t
 
-class EU4BotCommands():
+class EU4ChatCommands(commands.Cog):
     
-    def __init__(self, prefix: str, intents: Intents, token: str):
-        self.bot = EU4Bot(command_prefix=prefix, intents=intents)
-        self.token = token
-        self.prefix = prefix
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
         self.add_commands()
 
-    def add_commands(self):
-        @self.bot.command(name="setting")
-        @has_permissions(administrator=True)
-        async def settings(ctx: Context):
-            raise NotImplementedError()
+    @commands.command(name="setting")
+    @has_permissions(administrator=True)
+    async def settings(ctx: Context):
+        raise NotImplementedError()
 
-        @self.bot.command(name="create")
-        async def create_league(ctx: Context):
-            await self.send_message(ctx, t.CREATE_LEAGUE)
-            return 
+    @commands.command(name="create")
+    async def create_league(ctx: Context):
+        await self.send_message(ctx, t.CREATE_LEAGUE)
+        return 
 
     async def send_message(self, ctx: Context, msg: str):
         await ctx.channel.send(msg)

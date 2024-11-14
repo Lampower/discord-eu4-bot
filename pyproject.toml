@@ -9,6 +9,7 @@ packages = [{include="app"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 discord-py = "^2.4.0"
+sqlalchemy = "^2.0.36"
 
 [tool.poetry.scripts]
 start = "app.main:app"
